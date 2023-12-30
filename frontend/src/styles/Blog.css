@@ -1,0 +1,21 @@
+.blog-contents{
+    display: flex;
+    flex-direction: column;
+    width: 1170px;
+    text-align: center;
+    margin: auto;
+}
+
+.blog-contents .blog-title{
+    margin-bottom: 15px;
+}
+
+.blog-contents .blog-description{
+    margin: 0 50px;
+    margin-bottom: 15px;
+}
+
+.blog-contents .blog-signature{
+    font-size: 50px;
+    font-family: 'Mrs Saint Delafield',cursive;
+}

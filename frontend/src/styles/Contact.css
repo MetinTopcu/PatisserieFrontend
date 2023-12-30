@@ -1,0 +1,110 @@
+.contact-contents{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px 0;
+}
+.contact-details{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding-right: 10px;
+}
+.contact-contents .contact-form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding-left: 10px;
+}
+
+.contact-contents .contact-title{
+    font-size: 35px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dee0ea;
+    margin-bottom: 10px;
+    
+}
+
+.contact-contents .contact-address{
+    
+}
+
+.contact-contents .contact-infromation{
+    margin-top: 10px;
+}
+
+.contact-contents .contact-lists{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.contact-contents .contact-lists span{
+    color: #fc7790;
+    margin-right: 7px;
+}
+
+.contact-contents .form-user{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.form-user .form-input{
+    width: 100%;
+    font-size: 16px;
+    border: 2px solid #eaeaea;
+    background-color: #f7f7f7;
+    color: black;
+    outline: none;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.form-user .form-textarea{
+    height: 100px;
+    width: 100%;
+    font-size: 16px;
+    border: 2px solid #eaeaea;
+    background-color: #f7f7f7;
+    color: black;
+    outline: none;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.contact-form .form-button{
+    display: flex;
+    padding-top: 10px;
+}
+
+.contact-form .form-button button{
+    box-sizing: border-box;
+    padding: 0;
+    font: inherit;
+    overflow: visible;
+    cursor: pointer;
+    font-family: inherit;
+    line-height: inherit;
+    background: #fc7790 none repeat scroll 0 0;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 18px;
+    height: 45px;
+    margin-top: 20px;
+    text-transform: capitalize;
+    width: 170px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+.input-error{
+    border-color: #fc8181;
+  }
+  
+  .error{
+    color: #fc8181;
+    font-size: 12px;
+    text-align: left;
+  }
